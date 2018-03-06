@@ -15,6 +15,12 @@
 		609F962A204E8DE700CDE022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9629204E8DE700CDE022 /* main.m */; };
 		609F9634204E8DE700CDE022 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9633204E8DE700CDE022 /* __Tests.m */; };
 		609F963F204E8DE700CDE022 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F963E204E8DE700CDE022 /* __UITests.m */; };
+		609F9653204E8E1100CDE022 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F964D204E8E1000CDE022 /* RESideMenu.m */; };
+		609F9654204E8E1100CDE022 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F964E204E8E1000CDE022 /* RECommonFunctions.m */; };
+		609F9655204E8E1100CDE022 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9651204E8E1100CDE022 /* UIViewController+RESideMenu.m */; };
+		609F965A204E8E2700CDE022 /* DCRightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9657204E8E2700CDE022 /* DCRightMenuViewController.m */; };
+		609F965B204E8E2700CDE022 /* DCLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9659204E8E2700CDE022 /* DCLeftMenuViewController.m */; };
+		609F965D204E8F0A00CDE022 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609F965C204E8F0A00CDE022 /* 10.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		609F963A204E8DE700CDE022 /* 侧滑UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "侧滑UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		609F963E204E8DE700CDE022 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		609F9640204E8DE700CDE022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609F964D204E8E1000CDE022 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		609F964E204E8E1000CDE022 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		609F964F204E8E1000CDE022 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		609F9650204E8E1100CDE022 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		609F9651204E8E1100CDE022 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		609F9652204E8E1100CDE022 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		609F9656204E8E2700CDE022 /* DCLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLeftMenuViewController.h; sourceTree = "<group>"; };
+		609F9657204E8E2700CDE022 /* DCRightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRightMenuViewController.m; sourceTree = "<group>"; };
+		609F9658204E8E2700CDE022 /* DCRightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRightMenuViewController.h; sourceTree = "<group>"; };
+		609F9659204E8E2700CDE022 /* DCLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLeftMenuViewController.m; sourceTree = "<group>"; };
+		609F965C204E8F0A00CDE022 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +122,12 @@
 				609F961B204E8DE700CDE022 /* AppDelegate.m */,
 				609F961D204E8DE700CDE022 /* ViewController.h */,
 				609F961E204E8DE700CDE022 /* ViewController.m */,
+				609F9656204E8E2700CDE022 /* DCLeftMenuViewController.h */,
+				609F9659204E8E2700CDE022 /* DCLeftMenuViewController.m */,
+				609F9658204E8E2700CDE022 /* DCRightMenuViewController.h */,
+				609F9657204E8E2700CDE022 /* DCRightMenuViewController.m */,
+				609F965C204E8F0A00CDE022 /* 10.jpg */,
+				609F964C204E8E0400CDE022 /* RESideMenu */,
 				609F9620204E8DE700CDE022 /* Main.storyboard */,
 				609F9623204E8DE700CDE022 /* Assets.xcassets */,
 				609F9625204E8DE700CDE022 /* LaunchScreen.storyboard */,
@@ -130,6 +153,19 @@
 				609F9640204E8DE700CDE022 /* Info.plist */,
 			);
 			path = "侧滑UITests";
+			sourceTree = "<group>";
+		};
+		609F964C204E8E0400CDE022 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				609F9652204E8E1100CDE022 /* RECommonFunctions.h */,
+				609F964E204E8E1000CDE022 /* RECommonFunctions.m */,
+				609F964F204E8E1000CDE022 /* RESideMenu.h */,
+				609F964D204E8E1000CDE022 /* RESideMenu.m */,
+				609F9650204E8E1100CDE022 /* UIViewController+RESideMenu.h */,
+				609F9651204E8E1100CDE022 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +276,7 @@
 			files = (
 				609F9627204E8DE700CDE022 /* LaunchScreen.storyboard in Resources */,
 				609F9624204E8DE700CDE022 /* Assets.xcassets in Resources */,
+				609F965D204E8F0A00CDE022 /* 10.jpg in Resources */,
 				609F9622204E8DE700CDE022 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609F9653204E8E1100CDE022 /* RESideMenu.m in Sources */,
+				609F9654204E8E1100CDE022 /* RECommonFunctions.m in Sources */,
 				609F961F204E8DE700CDE022 /* ViewController.m in Sources */,
+				609F965B204E8E2700CDE022 /* DCLeftMenuViewController.m in Sources */,
 				609F962A204E8DE700CDE022 /* main.m in Sources */,
 				609F961C204E8DE700CDE022 /* AppDelegate.m in Sources */,
+				609F965A204E8E2700CDE022 /* DCRightMenuViewController.m in Sources */,
+				609F9655204E8E1100CDE022 /* UIViewController+RESideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
